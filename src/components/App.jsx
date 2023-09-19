@@ -3,10 +3,10 @@ import { Stats } from '../components/Task-02-Stats/Stats';
 import { FriendList } from '../components/Task-03-Friends-List/FriendList';
 import { TransactionHistory } from '../components/Task-04-Transaction-History/TransactionHistory';
 
-import user from '../components/Task-01-Profile/user.json';
-import data from '../components/Task-02-Stats/data.json';
-import friends from '../components/Task-03-Friends-List/friends.json';
-import transactions from '../components/Task-04-Transaction-History/transactions.json';
+import user from '../data/user.json';
+import data from '../data/data.json';
+import friends from '../data/friends.json';
+import transactions from '../data/transactions.json';
 
 export const App = () => {
   return (
