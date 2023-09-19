@@ -81,3 +81,19 @@
     font-size: 16px;
     font-weight: 700;
 }
+
+/* Composes pozwala na stworzenie klasy dziedziczącej style innej klasy */
+/*
+.alert {
+    margin: 8px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+}
+
+.info {
+    composes: alert;
+    background-color: blue;
+}
+*/
